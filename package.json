@@ -1,0 +1,19 @@
+{
+  "name": "mapa-dea",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.0.9",
+    "vite-plugin-pwa": "^1.2.0"
+  },
+  "dependencies": {
+    "firebase": "^12.12.0",
+    "leaflet": "^1.9.4"
+  }
+}
