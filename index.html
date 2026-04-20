@@ -11,6 +11,26 @@
   <body>
     <div id="map"></div>
 
+    <button id="btn-nearest" class="btn-flotante">
+      📍 Encontrar DEA Cercano
+    </button>
+
+    <div id="panel-admin" class="panel-admin">
+      <h3 style="margin-top: 0">Agregar DEA por Dirección</h3>
+      <input
+        type="text"
+        id="input-nombre"
+        placeholder="Nombre (Ej: Club Municipal)"
+      />
+      <input
+        type="text"
+        id="input-direccion"
+        placeholder="Calle y Altura, Ciudad"
+      />
+      <button id="btn-guardar-dea">Buscar y Guardar</button>
+      <p id="mensaje-admin" style="font-size: 0.8em; color: #555"></p>
+    </div>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
